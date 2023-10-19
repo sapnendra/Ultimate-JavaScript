@@ -1,24 +1,20 @@
+const prompt = require("prompt-sync")();
+
 // Practice set 2
 
 // question 1
-/*
-let age = prompt("Enter your age");
-
+let age = prompt("Enter your age: ");
 age = Number.parseInt(age);
-
-if(age > 10 && and < 20) {
+if(age > 10 && age < 20) {
     console.log("your age is between 10 to 20");
 } else {
     console.log("Your age doesn't lie between 10 to 20");
 } 
-*/
 
 // question 2
-
-/*
-let a = prompt("Enter a number");
-a = Number.parseInt(a);
-switch(a) {
+let num = prompt("Enter a number: ");
+num = Number.parseInt(num);
+switch(num) {
     case 1:
         console.log("You Enter 1.");
         break;
@@ -51,23 +47,18 @@ switch(a) {
         break;
     default:
         console.log("Your number doesn't lie between 1 to 10.");
-        return;
+        break;
 }
-*/
 
 // Question 3
-/*
-let num = 1;
-
+let num1 = prompt("Enter a number: ");
 if(num%2 == 0 && num%3 == 0) {
     console.log("Your number is divisible by 2 and 3.");
 } else {
     console.log("Your number is not divisible by 2 and 3.");
 }
-*/
 
 // Question 4
-/*
-let a = 19;
+
+let a = prompt("Enter your age: ");
 a > 18 ? console.log("You can drive") : console.log("You can't drive");
-*/
