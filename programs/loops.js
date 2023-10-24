@@ -1,15 +1,14 @@
 const prompt = require("prompt-sync")();
 
 // Program to add first n natural numbers.
-let n = prompt("Enter the number of natural numbers you want to add: ");
+let n = prompt("Enter n: natural numbers you want to add: ");
 n = Number.parseInt(n);
 let sum = 0;
 // simple for loop over 1 to n, and add to sum
-for(let i=0; i<=10; i++) {
-    sum = sum + i;
+for (let i = 0; i <= 10; i++) {
+  sum = sum + i;
 }
 console.log("Your Sum is: ", sum);
-
 
 /*
 const item = {
@@ -20,7 +19,7 @@ const item = {
     "Harry-" : "Chandigarh",
     "Sangam-" : "Amahiya"
 }
-// for in loop over item object and print key and value
+// for-in loop over item object and print key and value
 for(const key in item) {
     console.log(key, item[key]);
 }
