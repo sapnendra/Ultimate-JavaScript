@@ -22,9 +22,9 @@
 //     return a-b;
 // }
 // let num2 = [2, 45, 232, 6, 32, 56, 87];
-// console.log("Before sorting ascending: ", num);
-// num.sort(compare);
-// console.log("After sorting ascending: ", num);
+// console.log("Before sorting ascending: ", num2);
+// num2.sort();
+// console.log("After sorting ascending: ", num2);
 
 
 // sort method descending order
@@ -49,9 +49,9 @@
 // console.log(deletedValues);
 
 // slice method - it will slice out a piece of an array
-let num6 = [1,2,3,4,5,6];
-console.log(num6);
-let slicedValues = num6.slice(2); // start from 2nd index till last index
-console.log(slicedValues);
-let slicedValues2 = num6.slice(2, 5); // start from 2nd index till 5th index
-console.log(slicedValues2);
+// let num6 = [1,2,3,4,5,6];
+// console.log(num6);
+// let slicedValues = num6.slice(2); // start from 2nd index till last index
+// console.log(slicedValues);
+// let slicedValues2 = num6.slice(2, 5); // start from 2nd index till 5th index
+// console.log(slicedValues2);
