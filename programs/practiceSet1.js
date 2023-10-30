@@ -32,7 +32,6 @@ obj['isPrinciple'] = true;
 console.log("After updating the object details: ");
 console.log(obj);
 
-
 // Question5
 
 const dictionary = {

@@ -35,8 +35,8 @@ const prompt = require("prompt-sync")();
 // console.log(square);
 
 // question 5
-let arr = [1,2,3,4,5,6];
-let fact = arr.reduce((a, b)=>{
-    return a*b;
-})
-console.log("Factorial of", arr[arr.length-1], " is ", fact);
+// let arr = [1,2,3,4,5,6];
+// let fact = arr.reduce((a, b)=>{
+//     return a*b;
+// })
+// console.log("Factorial of", arr[arr.length-1], " is ", fact);
