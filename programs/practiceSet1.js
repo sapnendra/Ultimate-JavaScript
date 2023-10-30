@@ -15,7 +15,8 @@ const obj = {
     name: "Sapnendra",
     rollNo: 191,
     age: 20,
-    isPrinciple: false
+    isPrinciple: false,
+    from: "Delhi"
 }
 // a = "Sappu"; // it will throw an error because it is a constant constent object
 
@@ -25,7 +26,7 @@ console.log(obj);
 obj['rollNo'] = 100;
 obj['name'] = "Sapnendra Jaiswal";
 // Question4
-obj['from'] = "Delhi";  // addtion a new key details into object
+obj['from'] = "Madwas";  // addtion a new key details into object
 obj['isPrinciple'] = true;
 
 console.log("After updating the object details: ");
