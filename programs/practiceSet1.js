@@ -22,9 +22,9 @@ const obj = {
 
 console.log("Before updating the object details: ");
 console.log(obj);
-
 obj['rollNo'] = 100;
 obj['name'] = "Sapnendra Jaiswal";
+
 // Question4
 obj['from'] = "Madwas";  // addtion a new key details into object
 obj['isPrinciple'] = true;
@@ -33,7 +33,6 @@ console.log("After updating the object details: ");
 console.log(obj);
 
 // Question5
-
 const dictionary = {
     Appreciate: "Recognize the full worth of.",
     Ataraxia: "A state of freedom from emotional disturbance and anxiety.",
